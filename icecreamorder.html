@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title> Ice Creamery </title>
+	<meta charset="utf-8">
+	
+	<meta name="description" content="An ice cream foodtruck that sells ice cream around the city">
+	<meta name="keywords" content="ice cream, popsicle, foodtruck, ice cream truck">
+	<meta name="author" content="Eric Liang">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="refresh" content="360">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+	
+<style>
+
+body {
+	background-color: #f0fcff;
+	}
+
+nav ul {
+	display: flex;
+	}
+
+nav ul li a {
+	display: inline-block;
+	font-family: quicksand, sans-serif;
+	color: #fa738c;
+	text-shadow: 1px 1px 1px #00000070;
+	text-decoration: none;
+	font-size: 33px;
+	padding: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-variant: small-caps;
+	}
+	
+nav ul li {
+	position: relative;
+	display: inline-block;
+	list-style: none;
+	margin-left: 20px;
+	margin-top: 30px;
+	margin-right: auto;
+	}
+
+.flex {
+	border: 4px solid #ffa3b4;
+	border-radius: 90px;
+	background: linear-gradient(to right, #ffdefc, #c7ffdd);
+	display: flex;
+	height: 200px;
+	min-width: 1450px;
+	}
+	
+nav ul li a:hover {
+	background-color: #fc92f140;
+	transition: all ease 1s;
+	border: 0px solid #fc92f140;
+	border-radius: 45px;
+	}
+	
+.text {
+	text-align: center;
+	text-shadow: 1px 1px 1px #00000080;
+	font-family: quicksand, sans-serif;
+	}
+	
+#smallcaps {
+	font-variant: small-caps;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+#textbox {	
+	font-size: 25px;
+	display: inline-block; 
+	color: #fc92f1; 
+	border: 4px solid #ff69f0; 
+	text-shadow: #ff69f0; 
+	padding: 20px; 
+	border-radius: 15px; 
+	width: 40%; 
+	background-color: #c7ffdd90;
+	}
+
+.banner1 {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+.left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+	
+.flex1 {
+	display: flex;
+	}
+
+</style>
+</head>
+
+<!--#ff69f0;-->
+
+<body>
+
+<div class="banner1">
+
+<img style="display: inline-block;" src="images/clipartbanner1.png" height="123"><img style="display: inline-block;" src="images/clipartbanner1.png" height="123"><img style="display: inline-block;" src="images/clipartbanner1.png" height="123">
+
+</div>
+
+<br>
+
+<div class="flex">
+
+<header>
+<a href="icecreamabout.html"><img href="icecreamabout.html" style="position: relative; left: 40px;" src="images/icecreammainlogo.png" height="190"></a>
+</header>
+
+<nav>
+
+<ul>
+	<li><a href="icecreamabout.html">About-Us</a></li><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<li><a href="icecreammenu.html">Menu</a></li><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<li><a href="icecreamschedule.html">Schedule</a></li><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<li><a href="icecreamorder.html">Order-Online</a></li><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<li><a href="icecreamfeedback.html">Feedback</a></li><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<li><a href="icecreamcontact.html">Contact-Us</a></li><br>
+</ul>
+
+</nav>
+
+</div>
+
+<main>
+<br>
+
+<center><h1 id="smallcaps" class="text" style="display: flex; font-size: 45px; background-color: #f5d2fa80; color: #fa738c; border: 4px solid #ffa3b4; border-radius: 200px; width: 200px; height: 200px; padding: 10px; align-items: center; justify-content: center; font-size: 34px;">Order-Online</h1></center>
+
+
+<center>
+<p class="text" id="textbox"> Welcome to our <i id="smallcaps"> Order-Online </i>page! Here you can make an order to pick up later. Please fill our your information below if you'd like to make an order.</p>
+
+<br><br><br>
+
+
+
+<h1 class="text" style="color: #ff69f0;"> Personal Information </h1>
+
+
+<br><br><br>
+
+
+<div class="left">
+<form class="text"style="color: #ff69f0; font-size: 24px; text-align: left;"> 
+
+First Name: <input type="text" required="required">&nbsp;&nbsp;
+Last Name: <input type="text" required="required">&nbsp;&nbsp;
+
+Cellphone Number: <input type="tel" required="required">&nbsp;&nbsp;
+
+Email: <input type="email" required="required" placeholder="example@gmail.com">
+<br><br><br>
+
+
+<h1 class="text" style="color: #ff69f0;"> Order Information </h1>
+<br>
+
+<div class="flex1">
+<div class="flavor">
+
+1 scoop: <br>
+
+Flavor: <br>
+	<input type="radio" value="chocolate">
+	Chocolate <br>
+	<input type ="radio" value="vanilla">
+	Vanilla <br>
+	<input type="radio" value="strawberry">
+	Strawberry <br>
+	<input type ="radio" value="mango">
+	Mango <br>
+	<input type ="radio" value="coffee">
+	Coffee <br>
+	<input type ="radio" value="mintchocolatechip">
+	Mint Chocolate Chip <br>
+	<input type ="radio" value="cookiesandcream">
+	Cookies & Cream <br>
+	<input type ="radio" value="brownie">
+	Brownie <br>
+	
+	</div>
+	<div class="flavor" style="margin-left: 50px;">
+	
+<br><br>
+	<input type="radio" value="chocolate">
+	Green Tea <br>
+	<input type ="radio" value="vanilla">
+	Red Bean <br>
+	<input type="radio" value="strawberry">
+	Caramel Crunch <br>
+	<input type ="radio" value="mango">
+	Dulce de Leche <br>
+	<input type ="radio" value="coffee">
+	Birthday Cake <br>
+	<input type ="radio" value="mintchocolatechip">
+	Cotton Candy <br>
+	<input type ="radio" value="cookiesandcream">
+	Rainbow <br>
+	<input type ="radio" value="brownie">
+	Pizza <br>
+	</div>
+	
+	<div class="flavor" style="position: relative; margin-left: 150px; top: 10px;">
+	
+	2 scoops: <br>
+
+Flavor: <br>
+	<input type="radio" value="chocolate">
+	Chocolate <br>
+	<input type ="radio" value="vanilla">
+	Vanilla <br>
+	<input type="radio" value="strawberry">
+	Strawberry <br>
+	<input type ="radio" value="mango">
+	Mango <br>
+	<input type ="radio" value="coffee">
+	Coffee <br>
+	<input type ="radio" value="mintchocolatechip">
+	Mint Chocolate Chip <br>
+	<input type ="radio" value="cookiesandcream">
+	Cookies & Cream <br>
+	<input type ="radio" value="brownie">
+	Brownie <br>
+	
+	</div>
+	<div class="flavor" style="margin-left: 50px; position: relative; top: 10px;">
+	
+<br><br>
+	<input type="radio" value="chocolate">
+	Green Tea <br>
+	<input type="radio" value="vanilla">
+	Red Bean <br>
+	<input type="radio" value="strawberry">
+	Caramel Crunch <br>
+	<input type="radio" value="mango">
+	Dulce de Leche <br>
+	<input type="radio" value="coffee">
+	Birthday Cake <br>
+	<input type="radio" value="mintchocolatechip">
+	Cotton Candy <br>
+	<input type="radio" value="cookiesandcream">
+	Rainbow <br>
+	<input type="radio" value="brownie">
+	Pizza <br>
+	</div>
+	
+	</div>
+	
+	<div style="position: relative; top: 30px;">
+	Toppings: <br>
+	<input type="checkbox" value="chocolate">
+	Sprinkles <br>
+	<input type ="checkbox" value="vanilla">
+	Chocolate Chips <br>
+	<input type="checkbox" value="strawberry">
+	Cherries <br>
+	<input type ="checkbox" value="mango">
+	Caramel <br>
+	<input type ="checkbox" value="coffee">
+	M&Ms <br>
+	<input type ="checkbox" value="mintchocolatechip">
+	Nuts <br>
+	<input type ="checkbox" value="cookiesandcream">
+	Oreos <br>
+	<input type ="checkbox" value="brownie">
+	Cookie Dough <br>
+
+
+<br>
+<input style="color: #ff69f0; font-size: 20px; margin-bottom: 40px;" type="submit" value="SUBMIT">
+</form>
+</div>
+
+
+</center>
+
+
+
+</main>
+
+<footer>
+</footer>
+
+</body>
+
+</html>
